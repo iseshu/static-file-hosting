@@ -1,6 +1,6 @@
-#This Script is used as plugin in any website to display ads
+# This Script is used as plugin in any website to display ads
 
-##usage
+## usage
 
 ```
   <script onload="asssgin()" type="text/javascript" src='main.js'></script>
