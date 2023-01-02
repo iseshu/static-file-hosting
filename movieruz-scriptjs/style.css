@@ -1,0 +1,63 @@
+#class-div-ads {
+  background-color: lightblue;
+  width: 220px;
+  text-align: center;
+  border-radius: 5%;
+  cursor: pointer;
+}
+#class-title-ads {
+  color: red;
+  font-family: monospace;
+  font-weight: bold;
+}
+#class-div-ads-m {
+  background-color: black;
+  width: 30%;
+  text-align: center;
+}
+#class-img-ads{
+  text-align: center;
+}
+
+/* CSS */
+#class-link-ads {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#class-atag-ads:link { text-decoration: none; }
+#class-atag-ads:visited { text-decoration: none; }
+#class-atag-ads:hover { text-decoration: none; }
+#class-atag-ads:active { text-decoration: none; }
+
+
+#class-link-ads:hover,
+#class-link-ads:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+#class-link-ads:active {
+  opacity: .5;
+}
