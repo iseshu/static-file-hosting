@@ -8,7 +8,7 @@ function asssgin(){
   Http.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
      myObj = JSON.parse(this.responseText);
-     var hw =  "<h id='class-title-ads-m'><b>New Movie</b></h>"+ '<link onload="bypass()"  rel="stylesheet" href="https://raw.githubusercontent.com/iseshu/static-file-hosting/main/movieruz-scriptjs/style.css"> ';
+     var hw =  "<h id='class-title-ads-m'><b>New Movie</b></h>"+ '<link onload="bypass()"  rel="stylesheet" href="https://iseshu.github.io/static-file-hosting/movieruz-scriptjs/style.css"> ';
      var hp = '<img  id="class-img-ads" src="'+myObj.data[i].image+'">';
      var hs = "<h4 id='class-title-ads'>"+myObj.data[i].title+"</h4>"+'<button id="class-link-ads">Watch Now</button><br><br>';
      var html = hw+hp+hs;
