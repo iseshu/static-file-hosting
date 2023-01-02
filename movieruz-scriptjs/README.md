@@ -3,7 +3,7 @@
 ## usage
 
 ```
-  <script onload="asssgin()" type="text/javascript" src='main.js'></script>
+  <script onload="asssgin()" type="text/javascript" src='https://iseshu.github.io/static-file-hosting/movieruz-scriptjs/main.js'></script>
   <div  id="class-div-ads">
     <a href="#" target="_blank" id ="class-atag-ads"></a>
   </div>
