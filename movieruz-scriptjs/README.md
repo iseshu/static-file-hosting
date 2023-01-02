@@ -3,9 +3,9 @@
 ##usage
 
 ```
-<script onload="asssgin()" type="text/javascript" src='https://iseshu.github.io/static-file-hosting/movieruz-scriptjs/main.js'></script>
-<a href="#" target="_blank" id ="class-atag-ads">
-<div  id="class-div-ads">
-</div>
+  <script onload="asssgin()" type="text/javascript" src='main.js'></script>
+  <div  id="class-div-ads">
+    <a href="#" target="_blank" id ="class-atag-ads"></a>
+  </div>
 
 ```
