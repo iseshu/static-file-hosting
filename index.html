@@ -1,1 +1,60 @@
-Welcome to Static files
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  align-items : center;
+  justify-content : center;
+  height: 90vh;
+  display : flex;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family : monospace;
+  font-weight: bolder;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+<script type="text/javascript">
+var text = ["This is just a static file hosting...", "Don't waste your time.."];
+var i=0;
+var a = 0;
+var txt = "";
+function main(){
+    if (text.length<=a){
+      a = 0;
+      i=0;
+      txt ="";
+    }
+    else {
+      if (i==text[a].length){
+        i = 0;
+        txt="";
+        ++a;
+      }
+    }
+  var x = document.getElementById('tag');
+  txt += text[a].charAt(i);
+  x.innerHTML = txt+"|";
+  ++i;
+
+}
+
+
+setInterval(main, 150);
+</script>
+
+</head>
+<body onload="main()">
+
+<h1 id='tag'></h1>
+
+</body>
+</html>
