@@ -29,7 +29,7 @@ function switchd(){
     else{
       ++i;
     }
-    document.getElementById("class-img-ads").src = myObj[i].image;
+    document.getElementById("class-img-ads").src = "https://skip-cors.vercel.app/cors?url="+myObj[i].image;
     document.getElementById("class-title-ads").innerHTML = myObj[i].title;
 }
 
