@@ -5,7 +5,7 @@
 
 ### For Movierulz
 ```
-  <script onload="asssgin()" type="text/javascript" src='https://iseshu.github.io/static-file-hosting/movieruz-scriptjs/main.js'></script>
+  <script onload="asssgin()" type="text/javascript" src='https://file-hosting-yss.netlify.app/movieruz-scriptjs/main.js'></script>
   <div  id="class-div-ads">
     <a href="#" target="_blank" id ="class-atag-ads"></a>
   </div>
@@ -14,7 +14,7 @@
 ### For Ibomma
 
 ```
-  <script onload="asssgin()" type="text/javascript" src='https://iseshu.github.io/static-file-hosting/movieruz-scriptjs/ibmain.js'></script>
+  <script onload="asssgin()" type="text/javascript" src='https://file-hosting-yss.netlify.app/movieruz-scriptjs/ibmain.js'></script>
   <div  id="class-div-ads">
     <a href="#" target="_blank" id ="class-atag-ads"></a>
   </div>
